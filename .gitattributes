@@ -1,0 +1,11 @@
+# 仓库内统一 LF：Windows 上 core.autocrlf=true 会把 .sh 检出成 CRLF，
+# 到 WSL/Linux 下执行会报 $'\r': command not found。
+* text=auto eol=lf
+
+# 二进制文件不做行尾转换
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.pdf  binary
+*.sst  binary

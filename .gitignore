@@ -1,0 +1,27 @@
+# 构建产物
+build*/
+cmake-build-*/
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+
+# 数据库/基准运行期产物（跑测试和 benchmark 时生成，不应入库）
+*.sst
+*.sst.tmp
+*.log
+*.log.tmp
+MANIFEST
+MANIFEST.tmp
+/tmp_*/
+bench_results/
+docs/bench_local.csv
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
